@@ -27,6 +27,7 @@ public class App {
         //int tab[] = {1,2,3,45};
         // Example: Find a user by ID
         //User retrievedUser = userRepository.findById(1).orElse(null);
+        // just a comment
         List<User> listu = (List<User>) userRepository.findAll();
         listu.stream().forEach(listus -> System.out.println(listus.toString()));
     }
